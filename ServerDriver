@@ -1,0 +1,19 @@
+public class ServerDriver
+{
+/**A typical protocol packet contains version, length, flags, reserved (for future) and other major
+important fields/sections that contain protocol specific information.
+- ip address
+- version
+- length of the packet?
+- flags
+- reserved section */
+    public void main(String[] args)
+    {
+        // Read in the config file
+        Scanner configInput = new Scanner(System.in);
+        System.out.println("Please enter the path to the config file:");
+        String filePath = configInput.nextLine();
+
+        
+    }
+}
